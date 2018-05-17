@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="230dp"
         app:cardBackgroundColor="@android:color/background_dark"
-        app:cardCornerRadius="25dp">
+        app:cardCornerRadius="5dp">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
