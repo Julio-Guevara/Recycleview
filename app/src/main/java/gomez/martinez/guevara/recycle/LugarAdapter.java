@@ -46,13 +46,14 @@ public class LugarAdapter extends RecyclerView.Adapter<LugarAdapter.ViewHolder>{
 
     public class ViewHolder extends RecyclerView.ViewHolder{
 
-        ImageView ivFondo;
+        ImageView ivFondo,iv2;
         TextView tvNombre;
 
         public ViewHolder(View itemView) {
             super(itemView);
 
             ivFondo = itemView.findViewById(R.id.ivFondo);
+            iv2 = itemView.findViewById(R.id.iv2);
             tvNombre = itemView.findViewById(R.id.tvLeyenda);
         }
     }
